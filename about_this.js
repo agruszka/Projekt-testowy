@@ -12,7 +12,7 @@ test("'this' inside a method", function () {
 
 test("'this' on unattached function", function () {
 	var person = {
-		globalName: 'bob',
+		globalName: 'jacek',
 		intro: function () {
 			return "Hello, my name is " + this.globalName;
 		} 
