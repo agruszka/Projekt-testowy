@@ -12,7 +12,7 @@ test("array type", function() {
 });
 
 test("length", function() {
-    var collection = ['a','b','c'];
+    var collection = ['g','h','i'];
     equal(3, collection.length, 'what is the length of the collection array?');
 });
 
@@ -21,7 +21,7 @@ test("splice", function() {
     var workingWeek = daysOfWeek.splice(0, 5);
     var weekend = daysOfWeek;
 
-    deepEqual(workingWeek, ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'what is the value of workingWeek?');
+    deepEqual(workingWeek, ['Poniedzialek', 'Wtorek', 'Wednesday', 'Thursday', 'Friday'], 'what is the value of workingWeek?');
     deepEqual(weekend, ['Saturday', 'Sunday'], 'what is the value of weekend?');
 });
 
