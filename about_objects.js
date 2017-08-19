@@ -8,7 +8,7 @@ test("object type", function() {
 
 test("object literal notation", function() {
     var person = {
-        name: "Amory Blaine",
+        name: "Artur Jarzabek",
         age : 102,
     };
     equal("Amory Blaine", person.name, "what is the person's name?");
@@ -28,7 +28,7 @@ test("adding properties from strings", function() {
     person["__"] = "Amory Blaine";
     person["__"] = 102;
     equal("Amory Blaine", person.name, "what is the person's name?");
-    equal(102, person.age, "what is the person's age?");
+    equal(102, person.age, "Ile masz lat?");
 });
 
 test("adding functions", function() {
