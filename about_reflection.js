@@ -14,7 +14,7 @@ test("typeof", function() {
     equal(object, typeof({}), 'what is the type of an empty object?');
     equal('string', typeof('apple'), 'what is the type of a string?');
     equal(number, typeof(-5), 'what is the type of -5?');
-    equal(bolean, typeof(false), 'what is the type of false?');
+    equal(bolean, typeof(false), 'co tam jak tam gdzie tam?');
 });
 
 test("property enumeration", function() {
