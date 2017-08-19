@@ -63,6 +63,6 @@ test("constructor property", function () {
 test("eval", function() {
     // eval executes a string
     var result = "";
-    eval("result = 'ae' + ' ' + 'pie'");
+    eval("result = 'apple' + ' ' + 'pie'");
     equal('apple pie', result, 'what is the value of result?');
 });
