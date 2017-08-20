@@ -27,11 +27,15 @@ test("for in", function() {
 	for (var property_name in person) {
   		result = result + property_name;
 	}
+<<<<<<< HEAD
 	equal('nameage', result, 'wteraz jest dobrze value of result?');
+=======
+	equal('zmienilem jeszcze raz', result, 'what is the value of result?');
+>>>>>>> Nowa1
 });
 
 test("ternary operator", function() {
-	var fruit = true ? "apple" : "orange";
+	var fruit = true ? "apple" : "pomarancza";
 	equal('apple', fruit, 'what is the value of fruit?');
 
 	fruit = false ? "apple" : "orange";
