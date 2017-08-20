@@ -31,7 +31,7 @@ test("for in", function() {
 });
 
 test("ternary operator", function() {
-	var fruit = true ? "apple" : "orange";
+	var fruit = true ? "apple" : "pomarancza";
 	equal('apple', fruit, 'what is the value of fruit?');
 
 	fruit = false ? "apple" : "orange";
