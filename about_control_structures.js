@@ -28,7 +28,7 @@ test("for in", function() {
   		result = result + property_name;
 	}
 <<<<<<< HEAD
-	equal('nameage', result, 'wteraz jest dobrze value of result?');
+	equal('zmiana do tagow', result, 'wteraz jest dobrze value of result?');
 =======
 	equal('zmienilem jeszcze raz', result, 'what is the value of result?');
 >>>>>>> Nowa1
